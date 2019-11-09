@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Shabnam;
+    src: url('../fonts/shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('../fonts/shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('FontName-opentype'), url('../fonts/shabnam-font-v2.4.0/Shabnam.woff') format('woff'), url('../fonts/shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Shabnam;
+    font-size: 18px;
+}
+
+.navbar-fixed-top {
+    color: rgba(16, 159, 242, 0.88);
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 6px -6px black;
+    min-height: 10px;
+    min-height: 35px;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+nav {
+    padding-top: 10px;
+    transition: all 200ms linear;
+}
+
+.nav li a,
+.navbar-brand {
+    color: rgb(16, 159, 242);
+}
+
+.nav li a:hover {
+    color: #00CBEF;
+}
+
+.brands span {
+    color: rgb(0, 134, 237);
+    opacity: 0.5;
+}
+
+.brands span:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.course-detail-body {
+    margin-top: 150px;
+    position: relative;
+    clear: both;
+    margin-right: 50px;
+}
+
+.title-course {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00C274;
+}
+
+h1.course-title {
+    line-height: 60px;
+}
+
+.course-co {
+    margin-top: -10px;
+}
+
+.course-cover {
+    border-radius: 5px;
+    width: 50%;
+    position: absolute;
+    left: 40px;
+}
+
+.btn-enroll {
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    background-color: #00A0C6;
+    border: none;
+    margin-bottom: 200px;
+}
+
+h4 {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.instructors {
+    padding: 150px 0 150px 0;
+    text-align: center;
+}
+
+.ins-image {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.you-learn {
+    background-color: #F4F3EF;
+    margin-top: 100px;
+    padding: 60px;
+    padding-bottom: 180px;
+    width: 100%;
+    text-align: center;
+}
+
+.lesson-container {
+    display: grid;
+    /* background-color: green; */
+    grid-gap: 2em;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+.lesson {
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.2s cubic-bezier(.25, .8, .25, 1);
+}
+
+.lesson:hover {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+}
+
+.lesson-body {
+    color: #000;
+    font-size: 20px;
+    text-align: right;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.lesson-body p {
+    padding-top: 40px;
+    height: 250px;
+    font-size: 15px;
+}
+
+.lesson-number {
+    width: 100%;
+    padding: 5px;
+    padding-right: 50px;
+    border-right: 4px solid #00B4DF;
+    margin-right: -30px;
+}
+
+.required {
+    margin: 100px 150px 100px 150px;
+    text-align: center;
+}
+
+.pricing-container {
+    text-align: center;
+    display: grid;
+    grid-gap: 2em;
+    grid-auto-rows: minmax(auto, auto);
+    grid-template-columns: 1fr 1fr;
+    margin-top: 30px;
+}
+
+.price {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #B151E5;
+    box-sizing: border-box;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: all 0.2s cubic-bezier(.25, .8, .25, 1);
+}
+
+.price:hover {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 3px 3px rgba(0, 0, 0, 0.24);
+}
+
+.price-body {
+    color: #000;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+}
+
+.total-price {
+    color: #D8A9F2;
+    font-size: 30px;
+}
+
+.btn-buy {
+    margin-top: 10px;
+    padding: 10px 30px 10px 30px;
+    /* border-radius: 7px; */
+    border: none;
+    margin-bottom: 200px;
+}
+
+footer {
+    background-color: #F3F8F9;
+    padding-top: 100px;
+}
